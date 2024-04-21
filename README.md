@@ -17,12 +17,12 @@ Word Demonstration Link: [Watch the demonstration here](https://www.loom.com/sha
 ![Screenshot 3](Images/AdminMainScreen.png)
 
 ### Create Classes
-![Screenshot 4](images/CreateClasses.png)
+![Screenshot 4](Images/CreateClasses.png)
 
 ### Create Classes
-![Screenshot 5](images/ViewEnrolledStudents.png)
+![Screenshot 5](Images/ViewEnrolledStudents.png)
 
 ## Screenshots for the Student View
 
 ### Course Registration Page
-![Screenshot 5](images/StudentRegistrationModal.png)
+![Screenshot 5](Images/StudentRegistrationModal.png)
