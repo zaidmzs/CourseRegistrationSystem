@@ -7996,11 +7996,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Muhammad Zaid\\Downloads\\CustomIdentity-master\\CustomIdentity-master\\LMS.csproj",
+      "projectUniqueName": "C:\\Users\\Muhammad Zaid\\Downloads\\CourseRegistrationSystem\\LMS.csproj",
       "projectName": "LMS",
-      "projectPath": "C:\\Users\\Muhammad Zaid\\Downloads\\CustomIdentity-master\\CustomIdentity-master\\LMS.csproj",
+      "projectPath": "C:\\Users\\Muhammad Zaid\\Downloads\\CourseRegistrationSystem\\LMS.csproj",
       "packagesPath": "C:\\Users\\Muhammad Zaid\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Muhammad Zaid\\Downloads\\CustomIdentity-master\\CustomIdentity-master\\obj\\",
+      "outputPath": "C:\\Users\\Muhammad Zaid\\Downloads\\CourseRegistrationSystem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -250,5 +250,22 @@ namespace CustomIdentity.Controllers
                 ? RedirectToAction(nameof(HomeAdminAddClasses))
                 : RedirectToAction(nameof(HomeUserEnrollClasses));
         }
+
+        [HttpPost]
+        public IActionResult DeleteAction(string userId, string classId)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                using (var command = new SqlCommand("DeleteUserClassLink", connection))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@UserId", userId);
+                    command.Parameters.AddWithValue("@ClassId", classId);
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                }
+            }
+            return RedirectToAction("HomeAdminViewClasses");
+        }
     }
 }

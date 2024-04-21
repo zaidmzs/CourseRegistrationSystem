@@ -17,71 +17,71 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LMS
 build_property.RootNamespace = LMS
-build_property.ProjectDir = C:\Users\Muhammad Zaid\Downloads\CustomIdentity-master\CustomIdentity-master\
+build_property.ProjectDir = C:\Users\Muhammad Zaid\Downloads\CourseRegistrationSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Muhammad Zaid\Downloads\CustomIdentity-master\CustomIdentity-master
+build_property.MSBuildProjectDirectory = C:\Users\Muhammad Zaid\Downloads\CourseRegistrationSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Account/HomeAdmin.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Account/HomeAdmin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxIb21lQWRtaW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Account/HomeAdminAddClasses.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Account/HomeAdminAddClasses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxIb21lQWRtaW5BZGRDbGFzc2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Account/HomeAdminViewClasses.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Account/HomeAdminViewClasses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxIb21lQWRtaW5WaWV3Q2xhc3Nlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Account/HomeUserEnrollClasses.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Account/HomeUserEnrollClasses.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxIb21lVXNlckVucm9sbENsYXNzZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Account/Login.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Account/Register.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Home/Index.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Home/Privacy.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Shared/Error.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Shared/_LayoutNoNav.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Shared/_LayoutNoNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXROb05hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/_ViewImports.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/_ViewStart.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Muhammad Zaid/Downloads/CustomIdentity-master/CustomIdentity-master/Views/Shared/_Layout.cshtml]
+[C:/Users/Muhammad Zaid/Downloads/CourseRegistrationSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-oaye5qotgs

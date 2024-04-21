@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uYAoIgWwuAnn5R1M0U/lYXtpk/OGnq9EuRYEBg/tYcOUdMV2twXuaQaDrLEfSS+Kwdgik4lyCPqFtFLS3cyb1w==",
+  "dgSpecHash": "H/7Q0+OJWNuyM6ngLd43paxzmIEDKqUeChE3KM2oixqt5Zv15mSkKFSSKDIkSrjlxG+o0GLGyhleBGs83IqxSg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Muhammad Zaid\\Downloads\\CustomIdentity-master\\CustomIdentity-master\\LMS.csproj",
+  "projectFilePath": "C:\\Users\\Muhammad Zaid\\Downloads\\CourseRegistrationSystem\\LMS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Muhammad Zaid\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Muhammad Zaid\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
