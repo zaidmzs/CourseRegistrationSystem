@@ -1,0 +1,95 @@
+﻿@{
+    ViewData["Title"] = "HomeAdmin";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Information</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .compact-form .form-group {
+            margin-bottom: 0.5rem;
+        }
+
+        .compact-form label {
+            margin-bottom: 0.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="classForm" action="/Account/HomeAdmin123" method="post" class="compact-form">
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="classgrade">Class Grade:</label>
+                        <input type="text" class="form-control" id="classgrade" name="classgrade">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="classsize">Class Size:</label>
+                        <input type="number" class="form-control" id="classsize" name="classsize">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="starttime">Start Time:</label>
+                        <input type="time" class="form-control" id="starttime" name="starttime">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label for="endtime">End Time:</label>
+                        <input type="time" class="form-control" id="endtime" name="endtime">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-3">
+                    <button type="submit" class="btn btn-primary btn-block">Submit</button>
+                </div>
+                <div class="col-sm-3">
+                    <a href="/Account/HomeAdminAddClasses" class="btn btn-secondary btn-block">Cancel</a>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('classForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            $('#congratsModal').modal('show');
+            setTimeout(function () {
+                window.location.href = '/Account/HomeAdminAddClasses';
+            }, 3000);
+        });
+    </script>
+
+    <!-- Congrats Modal -->
+    <div class="modal fade" id="congratsModal" tabindex="-1" role="dialog" aria-labelledby="congratsModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="congratsModalLabel">Congratulations!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Your class has been created successfully! 🎉</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

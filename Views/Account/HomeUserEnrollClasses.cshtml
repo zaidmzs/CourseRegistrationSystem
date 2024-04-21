@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "HomeUserEnrollClasses";
+
+}
+@model IEnumerable<LMS.Models.UserClassLink>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Information</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <input type="hidden" id="userIdInput" name="userId" value="@ViewData["UserId"]" />
+
+    <form id="enrollForm" method="post" action="/Account/Enroll">
+        <input type="hidden" id="gradeLevelInput" name="gradeLevel" />
+        <input type="hidden" id="userNameInput" name="userName" value="@User.Identity.Name" />
+    </form>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Class Level</th>
+                <th>Enrolled</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var c in Model)
+            {
+                <tr>
+                    <td>@c.ClassId</td>
+                    <td>
+                        <button type="button" class="btn btn-primary enroll-btn" data-grade="@c.ClassId">Enroll</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Modal -->
+    <div class="modal fade" id="enrollModal" tabindex="-1" role="dialog" aria-labelledby="enrollModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="enrollModalLabel">Enroll Confirmation</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Congratulations, you are enrolled!</p>
+                    <p>Grade Level: <span id="gradeLevel"></span></p>
+                    <p>User Name: @User.Identity.Name</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="confirmEnroll">Confirm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        $('.enroll-btn').click(function () {
+            var grade = $(this).data('grade');
+            $('#gradeLevel').text(grade); // Update the modal with the grade level
+            $('#gradeLevelInput').val(grade); // Set the grade level value in the hidden input
+            $('#enrollModal').modal('show');
+        });
+
+        $('#confirmEnroll').click(function () {
+            $('#enrollForm').submit(); // Submit the form when Confirm button is clicked
+            $('#enrollModal').modal('hide'); // Hide the modal
+        });
+    </script>
+</body>
+</html>
